@@ -1,4 +1,4 @@
-function sudope -d "Quickly toggle sudo prefix"
+function __sudope -d "Quickly toggle sudo prefix"
 
   # Save the current command line and cursor position.
   set -l command_buffer (commandline)

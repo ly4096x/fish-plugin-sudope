@@ -16,7 +16,7 @@ function __sudope_bind -a sequence # modifiers..
   if test -n "$current_binding"
     echo "sudope: The sequence `$sequence` is already bound to: `$current_binding` (`$modifiers`)"
   else
-    bind $modifiers -- $sequence sudope
+    bind $modifiers -- $sequence __sudope
   end
 end
 
