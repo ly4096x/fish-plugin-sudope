@@ -21,7 +21,7 @@ function __sudope_bind -a sequence # modifiers..
 end
 
 # if sudope is already bound to some sequence, leave it
-if bind | string match -rq '[[:space:]]sudope$'
+if bind | string match -rq '[[:space:]]__sudope$'
   exit
 end
 
